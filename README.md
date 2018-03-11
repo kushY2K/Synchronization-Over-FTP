@@ -1,6 +1,6 @@
 # Synchronization-Over-FTP
 
-This is a project to synchronize the transfer of files between the client and server over the File Transfer Protocol using the SHA algorithm to create hashes of the present working directory.
+This is a project to synchronize the transfer of files between the client and server over the File Transfer Protocol using the SHA algorithm to create hashes of the present working directory and comparing them to find the files which are out of sync.
 
 Steps-
  1. Create hash of the client directory using sha.c.
