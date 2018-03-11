@@ -13,7 +13,7 @@ int main(void)
   unsigned char buffer[BUFSIZ];
   SHA256_CTX ctx;
   size_t len;
-  d = opendir("/home/kush/Documents");
+  d = opendir("/home/kush/Documents"); //change this according to your requirement
   if (d)
   {
     while ((dir = readdir(d)) != NULL)
